@@ -6,7 +6,7 @@ const Card = props => {
 		<div className="card bg-secondary">
 			<div className="card-body">
 				<p className="card-title text-white display-3">
-					{props.numero}
+					{props.numero % 10}
 				</p>
 			</div>
 		</div>
